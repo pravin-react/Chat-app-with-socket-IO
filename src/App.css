@@ -1,0 +1,35 @@
+.chat-window{
+  padding: 0px 500px;
+  background: rgb(223 200 242 / 50%);
+}
+
+.recievebox{
+  background: #9a75e2;
+    color: white;
+    border-radius: 15px;
+    border-top-left-radius: unset;
+    display: table;
+}
+
+.sendbox{
+  background: #ddd;
+    border-radius: 15px;
+    border-end-end-radius: unset;
+}
+.time-right {
+  float: right;
+  color: #aaa;
+  font-size: 12px;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+  font-size: 12px;
+}
+@media (max-width:1024px)  {
+  .chat-window{
+    padding: 15px 15px;
+    background: rgb(223 200 242 / 50%);
+  }
+}
